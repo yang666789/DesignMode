@@ -1,7 +1,7 @@
-package whut.yy.Strategy.parent;
+package whut.yy.Strategy.Supermarket.parent;
 
 
-import whut.yy.Strategy.base.CashSuper;
+import whut.yy.Strategy.Supermarket.base.CashSuper;
 
 public class CashRebate extends CashSuper {
 

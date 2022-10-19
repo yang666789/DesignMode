@@ -1,10 +1,10 @@
-package whut.yy.Strategy;
+package whut.yy.Strategy.Supermarket;
 
 
-import whut.yy.Strategy.base.CashSuper;
-import whut.yy.Strategy.parent.CashNormal;
-import whut.yy.Strategy.parent.CashRebate;
-import whut.yy.Strategy.parent.CashReturn;
+import whut.yy.Strategy.Supermarket.base.CashSuper;
+import whut.yy.Strategy.Supermarket.parent.CashNormal;
+import whut.yy.Strategy.Supermarket.parent.CashRebate;
+import whut.yy.Strategy.Supermarket.parent.CashReturn;
 
 public class CashContext {
     private CashSuper cashSuper;

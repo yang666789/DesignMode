@@ -1,4 +1,4 @@
-package whut.yy.Strategy;
+package whut.yy.Strategy.Supermarket;
 
 public class Client {
     public static void main(String[] args) {
