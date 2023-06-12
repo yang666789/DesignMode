@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+interface IGiveGift{
+    giveFlowers()
+}
+class Pursuit{
+    giveFlowers()
+}
+class Proxy{
+    IGiveGift realObject
+    giveFlowers()
+}
+
+'实现接口'
+Pursuit <|.. IGiveGift
+Proxy <|.. IGiveGift
+
+@enduml

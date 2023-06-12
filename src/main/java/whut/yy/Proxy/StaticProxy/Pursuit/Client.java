@@ -1,14 +1,12 @@
-package whut.yy.Proxy.Pursuit;
+package whut.yy.Proxy.StaticProxy.Pursuit;
 
 public class Client {
     public static void main(String[] args) {
+        // 非重点对象，可忽略
         BeautifulGirl girl = new BeautifulGirl();
         girl.setName("杨颖");
 
-//        IGiveGift daili = new Proxy(girl);
-        Proxy daili = new Proxy(girl);
-        daili.giveDolls();
+        IGiveGift daili = new Proxy(girl);
         daili.giveFlowers();
-        daili.giveChocolate();
     }
 }

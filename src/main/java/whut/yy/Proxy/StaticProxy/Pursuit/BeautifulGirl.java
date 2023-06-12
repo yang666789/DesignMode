@@ -1,4 +1,4 @@
-package whut.yy.Proxy.Pursuit;
+package whut.yy.Proxy.StaticProxy.Pursuit;
 
 import lombok.Getter;
 import lombok.Setter;
