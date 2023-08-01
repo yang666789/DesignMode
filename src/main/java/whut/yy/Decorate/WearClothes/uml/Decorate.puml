@@ -6,7 +6,7 @@ class People{
 }
 
 class Finery{
-- People people
+# People people
 + show()
 + decorate(People people)
 }

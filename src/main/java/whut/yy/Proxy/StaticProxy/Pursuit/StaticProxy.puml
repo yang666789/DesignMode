@@ -15,5 +15,6 @@ class Proxy{
 '实现接口'
 Pursuit <|.. IGiveGift
 Proxy <|.. IGiveGift
+Proxy --> Pursuit
 
 @enduml
