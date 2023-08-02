@@ -1,6 +1,6 @@
 package whut.yy.Adapter.BasketballTranslator;
 
-//后卫
+//防守
 public class Guards extends Player {
     public Guards(String name) {
         super(name);
